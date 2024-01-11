@@ -4,6 +4,7 @@
     box-sizing: border-box;
     cursor: pointer;
     list-style: none;
+    text-decoration: none;
 }
 .try{
     background-image: url(images/Happy_Birthday_Adam_Iwona_Podlasinska.jpg);
@@ -68,6 +69,7 @@ ul  {
     margin-left: 100px;
     margin-top: 18px;
     font-size: larger;
+    
     
     
 }
@@ -174,6 +176,12 @@ ul li button {
         display: block;
         line-height: 50px;
     }
+    ul li a {
+    color: #fff;
+    }
+    ul li button a {
+      color: black;
+     }
 
 
     @media screen and (max-width: 478px){
@@ -185,7 +193,7 @@ ul li button {
         }
         
         #find{
-            margin-left: 0px;
+            
             padding: 10px;
             height: 35px;
             width: 0px;
@@ -200,6 +208,8 @@ ul li button {
             margin-top: 20px;
             margin-left: 150px;
             display: block;
+            position: relative;
+            left: 60px;
         }
         ul  {
             display: block;
@@ -228,7 +238,8 @@ ul li button {
        }
        
        .big{
-        border: 2px solid black;
+        border: 2px solid #fff;
+        margin-left: 20px;
 
        }
        .find{
@@ -245,6 +256,40 @@ ul li button {
         .second{
             padding-top: 200px;
         }
+        .last{
+            display: block;
+            height: 700px;
+            background-color: black;
+            color: #fff
+            ;
+        }
+        
+    .boy{
+        line-height: 50px;
+        display: block;
+        
+    }
+    
+    .help{
+        margin-left: 10px;
+        display: block;
+    }
+    
+    .gal{
+        margin-left: 10px;
+        display: block;
+        text-align: center;
+        
+       
+   }
+   .people{
+    display: block;
+}
+.pic{
+    position: relative;
+    top: 70px;
+    right: 200px;
+}
     
     
     
