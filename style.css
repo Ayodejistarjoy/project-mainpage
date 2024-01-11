@@ -123,6 +123,28 @@ ul li button {
     background-color:;
     border: none;
     margin-top: 20px;}
+    .last{
+        display: flex;
+        height: 50px;
+        background-color: black;
+        color: #fff
+        ;
+    }
+    .boy{
+        line-height: 50px;
+        
+    }
+    .boy span{
+        margin-left: 20px;
+    }
+    
+    .gal{
+        line-height: 50px;
+        margin-left: 40px;
+    }
+    .people{
+        display: none;
+    }
     
     
 
