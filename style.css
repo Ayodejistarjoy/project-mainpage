@@ -97,3 +97,33 @@ ul li button {
     display: none;
 }
 
+.first{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.second{
+    padding-top: 100px;
+    color: #fff;
+}
+.find{
+    font-size: 60px;
+    font-weight: ;
+}
+.join{
+    display: block;
+    padding: 10px;
+    font-size: 30px;
+    line-height: 40px;
+}
+.start{
+    padding: 20px;
+    font-size: 20px;
+    background-color:;
+    border: none;
+    margin-top: 20px;
+    
+    
+
+
