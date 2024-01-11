@@ -5,3 +5,36 @@
     cursor: pointer;
     list-style: none;
 }
+.try{
+    background-image: url(images/Happy_Birthday_Adam_Iwona_Podlasinska.jpg);
+    background-size: cover;
+    height: 100vh;
+    animation: changes 15s ease-in-out  infinite;
+}
+
+@keyframes changes {
+    0% {
+        background-image: url(images/Fantasy_Island_Daniel_Cheong.jpg);
+    }
+    15%{
+        background-image: url(images/Desert_Beauty_Christoph_Fischer.jpg);
+    }
+    23%{
+        background-image: url(images/If_Only_We_Could_Turn_Back_Time_Anna_Kwa.jpg);
+        
+    }
+    35%{
+        background-image: url(images/Sheep_in_the_woods_II_James_Mills.jpg);
+    }
+    50%{
+        background-image: url(images/sunset_1663_Junji_Aoyama.jpg);
+    }
+    67%{
+        background-image: url(images/Tree_and_Morning_Mist_Jos_Buurmans.jpg);
+    }
+    87%{background-image: url(images/Untitled_Jorge_Guadalupe_Lizarraga.jpg);}
+    100%{
+        background-image: url(images/Secluded_Pete_Rowbottom.jpg);
+    }
+}
+
