@@ -145,6 +145,56 @@ ul li button {
     .people{
         display: none;
     }
+    @media screen and (max-width: 478px){
+        .image{
+            max-width: 100%;
+            width: 70px;
+            margin-left: 0px;
+            
+        }
+        
+        #find{
+            margin-left: 0px;
+            padding: 10px;
+            height: 35px;
+            width: 0px;
+            margin-top: 20px;
+            display: none;
+         
+        }
+        .logo{
+            max-width: 100%;
+            width: 30px;
+            height: 30px;
+            margin-top: 20px;
+            margin-left: 150px;
+            display: block;
+        }
+        ul  {
+            display: block;
+            margin-left: 50px;
+            margin-top: 18px;
+            font-size: larger;
+            
+        }
+        ul li {
+            display: inline-block;
+            
+            margin-right: 0px;
+            border: 2px solid none;
+            padding: 5px;
+            
+            
+            
+            
+        }
+        ul li button {
+            padding: 5px;
+            width: 70px;
+            display: none;
+            border: none ;
+           
+       }
     
     
 
